@@ -1,5 +1,6 @@
 class stack :
-    i = []
+    def __init__(self):
+            self.i = []
     def stackout(self) :
         self.i.pop()   
     def stackin(self , f) :

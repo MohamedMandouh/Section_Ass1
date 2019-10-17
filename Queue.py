@@ -1,5 +1,6 @@
 class queue:
-    i = []
+    def __init__(self):
+            self.i = []
     def queueout(self) :
         self.i.pop(0)   
     def queuein(self , f) :
